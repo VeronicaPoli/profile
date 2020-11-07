@@ -1,0 +1,119 @@
+/* General style rules for fonts and colours */
+body
+{
+  background-color: #e6dedd;
+  color: rgb(30, 30, 30);
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+h1,h2{
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1{
+  color: rgb(50,50,50);
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-size: 32px;
+}
+
+h2{
+  color: rgb(60,60,60);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+a{
+  font-family: 'Lora', serif;
+  color: rgb(50,50,50);
+  text-decoration: none;
+  transition: color 0.5s ease;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover {
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+}
+
+/* Custom design for container*/
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Responsive design for container*/
+@media (max-width: 960px){
+  .container{
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px){
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+    width: 300px;
+  }
+}
+
+/* Custom design for card-white*/
+.card-white{
+  background-color: #fcf9f4;
+  padding: 25px 35px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 35px 0px;
+  text-align: center;
+}
+
+/* Custom design for profile image*/
+.img-circle{
+  border-radius: 50%;
+  border: 2px solid rgb(50,50,50);
+}
+
+/* Custom design for all the dovegray buttons*/
+.btn-dovegray{
+  background-color: #968c83;
+  color: white;
+  border: 0.25px solid rgb(50,50,50);
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-dovegray:hover{
+  background-color: rgb(50,50,50);
+  color: white;
+}
+
+/* Custom design for all the dovegray icons*/
+.icon-dovegray{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.icon-dovegray li{
+  display: inline;
+  padding: 15px 10px;
+}
+
+.icon-dovegray i{
+  font-size: 50px;
+  color: #968c83;
+}
+
+.icon-dovegray i:hover{
+  color: rgb(50,50,50);
+}
+
