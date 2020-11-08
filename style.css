@@ -84,23 +84,25 @@ a:hover {
 }
 
 /* Custom design for all the dovegray buttons*/
-.btn-dovegray{
-  background-color: #968c83;
-  color: white;
-  border: 0.25px solid rgb(50,50,50);
+.btn-white{
+  background-color: #fcf9f4;
+  color: #968c83;
+  border: 0.4px solid #968c83;
   padding: 8px 16px;
   border-radius: 4px;
 }
 
 .btn-dovegray:hover{
-  background-color: rgb(50,50,50);
-  color: white;
+  background-color: #fcf9f4;
+  color: rgb(50,50,50);
+  border-color: rgb(50,50,50);
 }
 
 /* Custom design for all the dovegray icons*/
 .icon-dovegray{
   list-style: none;
   padding-left: 0px;
+  text-align: center;
 }
 
 .icon-dovegray li{
