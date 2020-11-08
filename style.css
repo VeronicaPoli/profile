@@ -87,15 +87,14 @@ a:hover {
 .btn-dovegray{
   background-color: #968c83;
   color: #fcf9f4;
-  border: 0.25px solid #fcf9f4;
+  border: 0.25px solid rgb(50,50,50);
   padding: 8px 16px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .btn-dovegray:hover{
   background-color: rgb(50,50,50);
   color: #fcf9f4;
-  border-color: #fcf9f4;
 }
 
 /* Custom design for all the dovegray icons*/
