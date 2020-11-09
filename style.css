@@ -49,18 +49,21 @@ a:hover {
 }
 
 /* Responsive design for container*/
+/* For a screen < 960px, this CSS will be read */
 @media (max-width: 960px){
   .container{
     width: 700px;
   }
 }
 
+/* For a screen < 720px, this CSS will be read */
 @media (max-width: 720px){
   .container{
     width: 500px;
   }
 }
 
+/* For a screen < 540px, this CSS will be read */
 @media (max-width: 540px){
   .container{
     width: 300px;
@@ -81,6 +84,7 @@ a:hover {
 .img-circle{
   border-radius: 50%;
   border: 2px solid rgb(50,50,50);
+  width:180px;
 }
 
 /* Custom design for all the dovegray buttons*/
