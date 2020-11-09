@@ -88,7 +88,7 @@ a:hover {
 }
 
 /* Custom design for rectangle images */
-.img-rectangle img{
+.img-rectangle{
   width: 180px;
   height: 130px;
   margin: 4px;
