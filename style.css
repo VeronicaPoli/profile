@@ -87,6 +87,13 @@ a:hover {
   width: 180px;
 }
 
+/* Custom design for rectangle images */
+.img-rectangle{
+  width: 180px;
+  height: 130px;
+  margin: 4px;
+}
+
 /* Custom design for all the dovegray buttons*/
 .btn-dovegray{
   background-color: #968c83;
