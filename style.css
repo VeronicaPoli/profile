@@ -1,4 +1,4 @@
-/* General style rules for fonts and colours */
+/*General style rules for fonts and colours*/
 body
 {
   background-color: #e6dedd;
@@ -42,35 +42,36 @@ a:hover {
   text-decoration: none;
 }
 
-/* Custom design for container*/
+/*Custom design for container*/
 .container{
   width: 700px;
   margin: 40px auto;
 }
 
-/* Responsive design for container*/
-/* For a screen < 960px, this CSS will be read */
+/*Responsive design for container*/
+
+/*For a screen < 960px, this CSS will be read*/
 @media (max-width: 960px){
   .container{
     width: 700px;
   }
 }
 
-/* For a screen < 720px, this CSS will be read */
+/*For a screen < 720px, this CSS will be read*/
 @media (max-width: 720px){
   .container{
     width: 500px;
   }
 }
 
-/* For a screen < 540px, this CSS will be read */
+/*For a screen < 540px, this CSS will be read*/
 @media (max-width: 540px){
   .container{
     width: 300px;
   }
 }
 
-/* Custom design for card-white*/
+/*Custom design for card-white*/
 .card-white{
   background-color: #fcf9f4;
   padding: 25px 35px;
@@ -80,21 +81,28 @@ a:hover {
   text-align: center;
 }
 
-/* Custom design for profile image*/
+/*Custom design for profile image*/
 .img-circle{
   border-radius: 50%;
   border: 2px solid rgb(50,50,50);
   width: 180px;
 }
 
-/* Custom design for rectangle images */
+/*Custom design for rectangle images*/
 .img-rectangle{
   width: 180px;
   height: 130px;
   margin: 4px;
 }
 
-/* Custom design for all the dovegray buttons*/
+/*Custom design for the videos*/
+.video{
+  width: 230px;
+  height: auto;
+  text-align: center;
+}
+
+/*Custom design for all the dovegray buttons*/
 .btn-dovegray{
   background-color: #968c83;
   color: #fcf9f4;
@@ -108,7 +116,7 @@ a:hover {
   color: #fcf9f4;
 }
 
-/* Custom design for all the dovegray icons*/
+/*Custom design for all the dovegray icons*/
 .icon-dovegray{
   list-style: none;
   padding-left: 0px;
